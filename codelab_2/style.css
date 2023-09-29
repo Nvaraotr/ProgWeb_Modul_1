@@ -1,0 +1,21 @@
+.gold-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: gold;
+}
+
+.gold-table th,
+.gold-table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.gold-table th {
+  background-color: gold;
+  color: black;
+}
+
+.gold-table tr:nth-child(even) {
+  background-color: gold;
+}
